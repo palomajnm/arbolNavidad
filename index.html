@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Árbol de Navidad Animado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app">
+        <canvas id="tree"></canvas>
+
+        <div class="controls">
+            <label>velocidad</label>
+            <input 
+            type="range"
+            id="speed"
+            min="-0.1"
+            max="0.1"
+            step="0.005"
+            value="0.03"
+            />
+
+            <label>color</label>
+            <input type="color" id="color" value="#ffffff" />
+            <button id="toggle">Encender</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
